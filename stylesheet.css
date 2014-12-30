@@ -5,7 +5,10 @@ body{
 
 
 td{
-	background-color:#99DDDD;	
+	background-color:#99DDDD;
+	border:2px solid black;
+	border-radius :5px;
+	padding:15px;	
 }
 
 h1{
