@@ -8,9 +8,11 @@ td{
 	background-color:#99DDDD;
 	border:2px solid black;
 	border-radius :5px;
-	padding:15px;	
+	padding:15px;
 }
-
+table a{
+	color:black;
+}
 h1{
 	text-align: center;
 }
