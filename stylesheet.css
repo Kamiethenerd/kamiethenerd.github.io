@@ -1,17 +1,21 @@
 body{
-	background-color: #99BBDD;
-	
+	background-color: #808080;
+	background-image: url(images/grey-heart-background-seamless.jpg) top left repeat;
 }
-
-
-td{
-	background-color:#99DDDD;
-	border:2px solid black;
-	border-radius :5px;
-	padding:15px;
+header{
+	padding: 5px;
+	border: 2px solid blue;
+	background: #c8c8c8;
+	border-radius: 3px;
 }
-table a{
-	color:black;
+header img{
+ float: right;
+ margin-right: 20px;
+ margin-top: 20px;
+ border-radius:3px;
+}
+header p{
+	text-align: center;
 }
 h1{
 	text-align: center;
@@ -20,4 +24,32 @@ h1{
 h2{
 	text-align: center;
 	color:#4A4943;
+}
+section a{
+	color:black;
+}
+section{
+	margin: 15px
+}
+article{
+	background-color:#99DDDD;
+	border:2px solid black;
+	border-radius :5px;
+	padding:15px;
+	margin: 20px;
+}
+
+article img{
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+	height: auto;
+	width: auto;
+	max-height: 100px;
+	max-width: 100px;
+	border: 1px solid black;
+	border-radius: 5px
+}
+footer{
+	color: #f8f8f8;
 }
