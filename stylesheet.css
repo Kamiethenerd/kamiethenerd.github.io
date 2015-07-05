@@ -9,9 +9,9 @@ body{
 }
 header{
 	
-	border: 15px solid #909990;
+	border: 15px solid #6E9983;
 	margin: 5px 10px 5px 10px;
-	background: #f0fff0;
+	background: #B8FFDB;
 	border-radius: 3px;
 	min-height: 250px;
 }
@@ -71,7 +71,7 @@ section{
 	margin: 20px
 }
 article{
-	background-color:#F5FFFF;
+	background-color:#B8DBFF;
 	border:2px solid black;
 	border-radius :5px;
 	padding:15px;
