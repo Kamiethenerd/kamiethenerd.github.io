@@ -1,3 +1,5 @@
+
+
 *{
 	padding: 0;
 	margin: 0;
@@ -16,28 +18,39 @@ header{
 	min-height: 250px;
 }
 header img{
- float: right;
- margin-right: 20px;
- margin-top: 20px;
- border-radius:3px;
- height: auto;
- width: auto;
- max-height: 200px
+	 float: right;
+	 margin-right: 20px;
+	 margin-top: 20px;
+	 border-radius:3px;
+	 height: auto;
+	 width: auto;
+	 max-height: 200px
 
 }
 header p{
 	text-align: center;
 }
 h1{
+	font-family: 'Vidaloka', serif;
+	font-size: 35px;
 	text-align: center;
 	margin-top: 40px
 }
 
 h2{
+	font-family: 'Vidaloka', serif;
 	text-align: center;
 	color:#4A4943;
+	font-size: 28px;
+}
+h3{
+	font-family: 'Vidaloka', serif;
+	text-align: center;
+	color:#4A4943;
+	font-size: 28px;
 }
 nav{
+	
 	margin: 15px auto 15px auto;
 	text-align: center;
 }
@@ -46,6 +59,7 @@ nav a{
 	display: inline-block;
 }
 nav li{
+	box-shadow: 0 10px 6px -6px #777;
 	display: inline;
 	background-color: #867499;
 	padding-left: 15px;
@@ -61,25 +75,33 @@ nav a{
 	text-decoration: none;
 	color: #E7E3EB;
 }
-h3{
-	font-size: 20px;
+section h3{
+	text-align: left;
+	font-family: 'Vidaloka', serif;
+	font-size: 24px;
 }
 section a{
 	color:black;
+	font-size: 20px;
 }
 section{
-	margin: 20px
+	margin: 20px;
 }
 article{
+	font-family: "alice";
+	font-size: 16px;
 	background-color:#B8DBFF;
-	border:2px solid black;
+	box-shadow: 0 10px 6px -6px #777;
 	border-radius :5px;
 	padding:15px;
 	margin: 20px;
 	padding:20px;
 }
+section h3{
+	padding-left: 20px
+}
 article ul{
-padding-left: 10px;
+	padding-left: 10px;
 }
 article img{
 	float: right;
@@ -91,9 +113,13 @@ article img{
 	max-width: 100px;
 	border: 1px solid black;
 	border-radius: 5px;
+	background: white;
 	
 }
 .skills article{
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	font-family: "alice";
+	font-size: 16px;
 	background-color: #E0C2FF;
 	border:2px solid black;
 	border-radius :5px;
@@ -108,6 +134,9 @@ article img{
 	display: inline;
 	padding: 10px 10px 10px 10px;
 
+}
+.education article{
+	min-height: 125px;
 }
 .experience article{
 	min-height: 125px;
