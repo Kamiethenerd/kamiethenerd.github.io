@@ -10,44 +10,51 @@ body{
 	background-image: url(images/grey-heart-background-seamless.jpg) top left repeat;
 }
 header{
-	
+	display: flex;
 	border: 15px solid #6E9983;
-	margin: 5px 10px 5px 10px;
+	margin: 25px;
 	background: #B8FFDB;
 	border-radius: 3px;
-	min-height: 250px;
+	justify-content: space-between;
 }
 header img{
 	 float: right;
-	 margin-right: 20px;
-	 margin-top: 20px;
+	 margin:15px;
 	 border-radius:3px;
 	 height: auto;
 	 width: auto;
-	 max-height: 200px
-
+	 max-height: 200px;
 }
-header p{
-	text-align: center;
+header hgroup{
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+}
+header h4 {
+	justify-self: flex-end;
+	padding: 10px 0;
+}
+header h4 a{
+
+	color: #4A4943;
+	font-size: 20px;
+	
 }
 h1{
 	font-family: 'Vidaloka', serif;
 	font-size: 35px;
-	text-align: center;
-	margin-top: 40px
 }
 
 h2{
 	font-family: 'Vidaloka', serif;
-	text-align: center;
 	color:#4A4943;
 	font-size: 28px;
 }
 h3{
-	font-family: 'Vidaloka', serif;
-	text-align: center;
+	font-family: 'Vidaloka', serif;	
 	color:#4A4943;
 	font-size: 28px;
+	padding-bottom: 35px;
 }
 nav{
 	
